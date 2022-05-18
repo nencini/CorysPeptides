@@ -91,7 +91,7 @@ set xrange [2:9]
 set xtics font 'Times, 20'
 
 set ylabel "gamma [s]"  font 'Times,22' offset -0.8,0
-set xlabel "B [T]"  font 'Times,22' offset -0.8,0
+set xlabel "B [T]"  font 'Times,22' 
 
 
 plot "4_Experiment_gamma_R1_different_magnetic_fields.out" using 1:(1/$2) with linespoints ls 5 lw 3 lc rgb("#000000") notitle "Experiment" ,\
@@ -132,8 +132,7 @@ set yrange [0.02:0.06]
 
 unset title
 set xtics font 'Times, 20'
-set xlabel "B [T]"  font 'Times,22' offset -0.8,0
-
+set xlabel "B [T]"  font 'Times,22' 
 
 plot "5_Experiment_gamma_R2_different_magnetic_fields.out" using 1:(1/$2) with linespoints ls 5 lw 3 lc rgb("#000000") notitle "Experiment" ,\
 	"1_OPC_gamma_R2_water_model_different_magnetic_fields.out" using 1:(1/$2) with linespoints ls 1  notitle "OPC water" ,\
@@ -146,17 +145,54 @@ plot "5_Experiment_gamma_R2_different_magnetic_fields.out" using 1:(1/$2) with l
 @alpha_times
 #####################
 
-set title "T2" font 'Times, 20'
+set title "Timescales" font 'Times, 20'
 
-unset yrange # [0.01:0.05]
-unset xrange # [2:9]
+set xrange  [0.8:250]
+#unset xrange # [2:9]
 
+unset yrange
+set yrange[0.0001:]
+
+set ytics 0.1 format "%.1f"
+
+#set xtics
 set ytics
-set xtics
+unset xtics
 
 unset ylabel
 unset xlabel
+set logscale x
 
-
-plot "CF0_TIP3P.xvg" using 1:($2) with linespoints ls 5 lw 3 lc rgb("#000000") title "TIP3P" ,\
+plot "SDS_micelle_TIP3P_coeff.out" using ($1):($2) with linespoints ls 3   notitle "TIP3P" ,\
+"SDS_micelle_TIP4P_coeff.out" using ($1):($2) with linespoints ls 2   notitle "TIP3P" ,\
+"SDS_micelle_OPC_coeff.out" using ($1):($2) with linespoints ls 1   notitle "TIP3P" 
 	
+	
+	
+#####################
+@gamma_times
+#####################
+
+unset title 
+
+set xrange  [0.8:250]
+#unset xrange # [2:9]
+
+unset yrange
+set yrange[0.0001:]
+
+set ytics 0.1 format "%.1f"
+
+
+set ytics font 'Times, 14'
+
+set xtics font 'Times, 20'
+set xlabel "Timescale [ps]"  font 'Times,22' 
+
+unset ylabel
+
+
+
+plot "SDS_micelle_TIP3P_coeff.out" using ($1):($3) with linespoints ls 3   notitle "TIP3P" ,\
+"SDS_micelle_TIP4P_coeff.out" using ($1):($3) with linespoints ls 2   notitle "TIP3P" ,\
+"SDS_micelle_OPC_coeff.out" using ($1):($3) with linespoints ls 1   notitle "TIP3P" 

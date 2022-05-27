@@ -61,8 +61,8 @@ unset xtics
 set ylabel "T1 [s]"  font 'Times,16'
 #set title "Title"  font 'Times,22' #can then use "unset title", or "unset xlabel"/ "unset ylabel", if you do not want these later on...
 
-plot "yFis1_SDS_micelle.out" u ($0+2):2 w linespoints lw 2 notitle  # put your plot
-
+plot "yFis1_SDS_micelle.out" u ($0+2):2 w linespoints lw 2 notitle, \
+"experimental_relaxation_data/yFis1_DSDS_T1_experiment.dat"  w linespoints lw 4 pt 5 lc rgb "black" notitle  # put your plot
 
 @Middle_plot
 
@@ -70,7 +70,8 @@ plot "yFis1_SDS_micelle.out" u ($0+2):2 w linespoints lw 2 notitle  # put your p
 set ylabel "T2 [s]"  font 'Times,16'
 #set title "Title"  font 'Times,22'
 
-plot "yFis1_SDS_micelle.out" u ($0+2):3 w linespoints lw 2 notitle
+plot "yFis1_SDS_micelle.out" u ($0+2):3 w linespoints lw 2 notitle, \
+"experimental_relaxation_data/yFis1_DSDS_T2_experiment.dat"  w linespoints lw 4 pt 5 lc rgb "black" notitle  # put your plot
 
 
 @Bottom_plot
@@ -80,6 +81,7 @@ set xlabel "Residue"  font 'Times,16'
 set ylabel "hetNOE [s]"  font 'Times,16'
 #set title "Title"  font 'Times,22'
 
-plot "yFis1_SDS_micelle.out" u ($0+2):4 w linespoints lw 2 notitle
+plot "yFis1_SDS_micelle.out" u ($0+2):4 w linespoints lw 2 notitle,\
+"experimental_relaxation_data/yFis1_DSDS_hetnoe_experiment.dat"  w linespoints lw 4 pt 5 lc rgb "black" notitle  # put your plot
  
 

@@ -1,4 +1,4 @@
-# This file was created Thu May 26 17:32:48 2022
+# This file was created Mon May 30 11:03:43 2022
 # Created by:
 #                      :-) GROMACS - gmx rotacf, 2021.1 (-:
 # 
@@ -6,7 +6,7 @@
 # Data prefix:  /usr/local/gromacs
 # Working dir:  /home/ricky/Documents/from_work/git/CorysPeptides/figure_time_scales_protein
 # Command line:
-#   gmx rotacf -f /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent.xtc -s /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_no_solvent.tpr -n /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/HN_for_RT.ndx -o 93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent_2948/NHrotaCF_6 -P 2 -d
+#   gmx rotacf -f /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent.xtc -s /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_no_solvent.tpr -n /home/ricky/Documents/from_work/MD/simulations/production_run/93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent/HN_for_RT.ndx -o 93_hMff_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_370ns_mahti_360ns_mahti_2940ns_no_solvent_2948/NHrotaCF_6 -P 2 -d -e 2948110
 # gmx rotacf is part of G R O M A C S:
 #
 # Gyas ROwers Mature At Cryogenic Speed

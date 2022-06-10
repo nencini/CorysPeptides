@@ -1,0 +1,17 @@
+#relaxation times for GWALP in POPC bicelle, sample1 
+#1 residue
+#2 T1 [s]
+#3 T2 [s]
+#4 hetNOE [s]
+#5 T2 second value
+
+
+
+
+
+3 1.07 0.0335 0.54 nan
+7 1.66 0.0223 0.60 nan
+11 2.20 0.0305 0.60 nan
+13 1.69 0.0305 0.71 nan
+15 1.91 0.0336 0.80 nan
+21 1.57 0.0251 0.76 0.0356

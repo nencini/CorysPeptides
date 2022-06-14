@@ -1,0 +1,298 @@
+
+set size 1,1
+set terminal pdf enhanced size 6,5
+set encoding utf8
+set output "SDS_micelles_relaxation_times3.pdf"
+ 
+set ytics 0.01 format "%.2f"
+ 
+set key inside left maxcols 1 font 'Times,14' 
+set key reverse
+set key Left
+
+      
+
+set datafile commentschar "@#$%&"
+set multiplot layout 2,1
+
+############################################################################## 
+# Set layout
+##############################################################################
+
+
+H1=0.10
+H2=0.54
+H3=0.98
+
+
+V1=0.91
+V2=0.51
+V3=0.11
+
+
+alpha_R1 = "set tmargin at screen V1; set bmargin at screen V2+0.02; set lmargin at screen H1; set rmargin at screen H2"
+gamma_R1 = "set tmargin at screen V2-0.02; set bmargin at screen V3; set lmargin at screen H1; set rmargin at screen H2"
+
+
+alpha_R2 = "set tmargin at screen V1; set bmargin at screen V2+0.02; set lmargin at screen H2; set rmargin at screen H3"
+gamma_R2 = "set tmargin at screen V2-0.02; set bmargin at screen V3; set lmargin at screen H2; set rmargin at screen H3"
+
+
+alpha_times_SDS = "set tmargin at screen V1; set bmargin at screen V1-(V1-V3-0.02)/7; set lmargin at screen H1; set rmargin at screen H2-0.05"
+alpha_times_eYqjD_50 = "set tmargin at screen V1-(V1-V3-0.02)/7; set bmargin at screen V1-(V1-V3-0.02)/7*2; set lmargin at screen H1; set rmargin at screen H2-0.05"
+alpha_times_hMff_60 = "set tmargin at screen V1-(V1-V3-0.02)/7*2; set bmargin at screen V1-(V1-V3-0.02)/7*3; set lmargin at screen H1; set rmargin at screen H2-0.05"
+alpha_times_hMff_40 = "set tmargin at screen V1-(V1-V3-0.02)/7*3; set bmargin at screen V1-(V1-V3-0.02)/7*4; set lmargin at screen H1; set rmargin at screen H2-0.05"
+alpha_times_hMff_45 = "set tmargin at screen V1-(V1-V3-0.02)/7*4; set bmargin at screen V1-(V1-V3-0.02)/7*5; set lmargin at screen H1; set rmargin at screen H2-0.05"
+alpha_times_hMff_50 = "set tmargin at screen V1-(V1-V3-0.02)/7*5; set bmargin at screen V1-(V1-V3-0.02)/7*6; set lmargin at screen H1; set rmargin at screen H2-0.05"
+
+gamma_times_SDS = "set tmargin at screen V1; set bmargin at screen V1-(V1-V3-0.02)/7; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_eYqjD_50 = "set tmargin at screen V1-(V1-V3-0.02)/7; set bmargin at screen V1-(V1-V3-0.02)/7*2; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_hMff_60 = "set tmargin at screen V1-(V1-V3-0.02)/7*2; set bmargin at screen V1-(V1-V3-0.02)/7*3; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_hMff_40 = "set tmargin at screen V1-(V1-V3-0.02)/7*3; set bmargin at screen V1-(V1-V3-0.02)/7*4; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_hMff_45 = "set tmargin at screen V1-(V1-V3-0.02)/7*4; set bmargin at screen V1-(V1-V3-0.02)/7*5; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_hMff_50 = "set tmargin at screen V1-(V1-V3-0.02)/7*5; set bmargin at screen V1-(V1-V3-0.02)/7*6; set lmargin at screen H2+0.05; set rmargin at screen H3"
+
+
+gamma_times_TIP3 = "set tmargin at screen V2-0.02; set bmargin at screen  V2-0.02-(V2-V3-0.02)/3; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_TIP4 = "set tmargin at screen V2-0.02-(V2-V3-0.02)/3; set bmargin at screen V2-0.02-(V2-V3-0.02)/3*2; set lmargin at screen H2+0.05; set rmargin at screen H3"
+gamma_times_OPC = "set tmargin at screen V2-0.02-(V2-V3-0.02)/3*2; set bmargin at screen V3; set lmargin at screen H2+0.05; set rmargin at screen H3"
+
+
+
+##################################################################################
+# Set colours
+##################################################################################
+
+
+set style line 1 lt 1 lw 2 pt 7 ps 0.6 linecolor rgb "#96c193"
+set style line 2 lt 1 lw 2 pt 7 ps 0.6 linecolor rgb "#3d5954"
+set style line 3 lt 1 lw 2 pt 7 ps 0.6 linecolor rgb "#9693c1"
+set style line 4 lt 1 lw 3 pt 7 ps 0.6 linecolor rgb "#3e209d"
+set style line 5 lt 1 lw 3 pt 7 ps 0.6 linecolor 1
+set style line 6 lt 1 lw 3 pt 7 ps 0.6 linecolor 2
+####################################################################################################33
+
+
+
+
+ 
+ 
+ 
+ #####################
+@alpha_times_SDS
+#####################
+
+
+set title "Timescales" font 'Times, 20'
+
+set xrange  [-100:5000]
+
+
+unset yrange
+set yrange[0.0:0.41]
+
+set ytics 0.3 format "%.1f"
+
+#set xtics
+set ytics
+unset xtics
+
+unset ylabel
+unset xlabel
+#set logscale x
+set style fill solid
+set boxwidth 20
+
+
+unset title
+
+
+
+set title "alpha" font 'Times, 20'
+
+
+set ytics
+unset xtics
+
+unset ylabel
+unset xlabel
+
+set label 1 'empty, 60 SDS' at graph 0.6,0.86 font 'Times,14'
+
+plot "60SDS_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 1   notitle "TIP3P" 
+	
+	
+ 
+
+#####################
+@alpha_times_eYqjD_50
+#####################
+
+unset title
+
+
+
+unset ylabel
+set label 1 'eYqjD, 50 SDS' at graph 0.6,0.86 font 'Times,14'
+
+plot "50SDS_eYqjD_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 2   notitle "TIP3P" ,\
+
+
+
+
+#####################
+@alpha_times_hMff_60
+#####################
+
+set label 1 'hMff, 60 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+
+unset ylabel
+
+plot "hMff_60SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 3   notitle "TIP3P" ,\
+
+
+
+
+
+
+
+#####################
+@alpha_times_hMff_40
+#####################
+
+set label 1 'hMff, 40 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+
+unset ylabel
+
+plot "hMff_40SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 4   notitle "TIP3P" ,\
+
+
+#####################
+@alpha_times_hMff_45
+#####################
+
+set label 1 'hMff, 45 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+unset ylabel
+
+plot "hMff_45SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 5   notitle "TIP3P" ,\
+
+
+
+
+#####################
+@alpha_times_hMff_50
+#####################
+
+set label 1 'hMff, 50 SDS' at graph 0.6,0.86 font 'Times,14'
+
+set ytics font 'Times, 14'
+
+set xtics 1000 font 'Times, 14'
+set xlabel "Timescale [ps]"  font 'Times,22' 
+
+unset ylabel
+
+plot "hMff_50SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($2) with boxes ls 6   notitle "TIP3P" ,\
+
+
+
+#####################
+@gamma_times_SDS
+#####################
+
+unset title 
+unset xtics
+
+unset ylabel
+unset xlabel
+
+
+set title "gamma" font 'Times, 20'
+
+
+set label 1 'empty, 60 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+
+
+
+
+plot "60SDS_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 1   notitle "TIP3P" 
+
+
+
+
+	
+
+
+
+
+#####################
+@gamma_times_eYqjD_50
+#####################
+unset title 
+ set label 1 'eYqjD, 50 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+plot "50SDS_eYqjD_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 2   notitle "TIP3P" ,\
+
+
+#####################
+@gamma_times_hMff_60
+#####################
+
+set label 1 'hMff, 60 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+plot "hMff_60SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 3   notitle "TIP3P" ,\
+
+
+
+
+#####################
+@gamma_times_hMff_40
+#####################
+
+set ytics font 'Times, 14'
+
+set label 1 'hMff, 40 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+plot "hMff_40SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 4   notitle "TIP3P" ,\
+
+
+
+
+#####################
+@gamma_times_hMff_45
+#####################
+
+set label 1 'hMff, 45 SDS' at graph 0.6,0.86 font 'Times,14'
+
+
+
+
+plot "hMff_45SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 5   notitle "TIP3P" ,\
+
+
+
+#####################
+@gamma_times_hMff_50
+#####################
+
+set label 1 'hMff, 50 SDS' at graph 0.6,0.86 font 'Times,14'
+
+set ytics font 'Times, 14'
+
+set xtics 1000 font 'Times, 14'
+set xlabel "Timescale [ps]"  font 'Times,22' 
+
+
+plot "hMff_50SDS_micelle_SDS_relax_coef.out" using ($1*(10**12)):($3) with boxes ls 6   notitle "TIP3P" ,\
+

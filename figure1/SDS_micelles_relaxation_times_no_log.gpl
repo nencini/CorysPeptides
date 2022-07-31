@@ -2,7 +2,7 @@
 set size 1,1
 set terminal pdf enhanced size 6,5
 set encoding utf8
-set output "SDS_micelles_relaxation_times.pdf"
+set output "SDS_micelles_relaxation_times_no_log.pdf"
  
 set ytics 0.01 format "%.2f"
  
@@ -152,11 +152,11 @@ plot "5_Experiment_gamma_R2_different_magnetic_fields.out" using 1:(1/$2) with l
 
 set title "Timescales" font 'Times, 20'
 
-set xrange  [0.8:20000]
+set xrange  [-100:5000]
 
 
 unset yrange
-set yrange[0:0.49]
+set yrange[0.0:0.49]
 
 set ytics 0.1 format "%.1f"
 
@@ -166,7 +166,7 @@ unset xtics
 
 unset ylabel
 unset xlabel
-set logscale x
+#set logscale x
 set style fill solid
 set boxwidth 0.06
 
@@ -267,7 +267,7 @@ unset title
 
 set ytics font 'Times, 14'
 
-set xtics font 'Times, 14'
+set xtics 1000 font 'Times, 14'
 set xlabel "Timescale [ps]"  font 'Times,22' 
 
 unset ylabel

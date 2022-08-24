@@ -92,37 +92,39 @@ author_name="Ricky Nencini"
 
 
 for system in mahti_folders:
-    folder_mahti=mahti_path+system+"/correlationFUNCTfolderNH"
-    folder_local=final_path+system
-    print(folder_mahti)
+    try:
+        folder_mahti=mahti_path+system+"/correlationFUNCTfolderNH"
+        folder_local=final_path+system
+        print(folder_mahti)
     
-    folder_path=folder_local+"/correlationFUNCTfolderNH/"
+        folder_path=folder_local+"/correlationFUNCTfolderNH/"
     
-    output_name=system+".out"
+        output_name=system+".out"
 
-    residues=0
-    for file in os.listdir(folder_path):
-        residues+=1
-
-    if take_all_in_folder=="yes":
+        residues=0
         for file in os.listdir(folder_path):
-            input_corr_file = folder_path+os.fsdecode(file)
-            rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
-    elif take_all_in_folder=="number":
-        step_exp=(biggest_corr_time-smallest_corr_time)/N_exp_to_fit
-        Ctimes = 10 ** np.arange(smallest_corr_time, biggest_corr_time, step_exp)
-        Ctimes = Ctimes * 0.001 * 10 ** (-9);
-        Ctimes_to_save=np.zeros([len(Ctimes),residues+1])
-        Ctimes_to_save[:,0]=Ctimes
-        for i in range(0,residues):
-            input_corr_file = folder_path+input_prefix+str(i)+".xvg"
-            AA=rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
-            Ctimes_to_save[:,i+1]=AA.Coeffs
-    else:
-        rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
-                                                                                                                                                        
-    np.savetxt(output_name+".coeff",Ctimes_to_save)
+            residues+=1
 
+        if take_all_in_folder=="yes":
+            for file in os.listdir(folder_path):
+                input_corr_file = folder_path+os.fsdecode(file)
+                rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
+        elif take_all_in_folder=="number":
+            step_exp=(biggest_corr_time-smallest_corr_time)/N_exp_to_fit
+            Ctimes = 10 ** np.arange(smallest_corr_time, biggest_corr_time, step_exp)
+            Ctimes = Ctimes * 0.001 * 10 ** (-9);
+            Ctimes_to_save=np.zeros([len(Ctimes),residues+1])
+            Ctimes_to_save[:,0]=Ctimes
+            for i in range(0,residues):
+                input_corr_file = folder_path+input_prefix+str(i)+".xvg"
+                AA=rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
+                Ctimes_to_save[:,i+1]=AA.Coeffs
+        else:
+            rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
+                                                                                                                                                        
+        np.savetxt(output_name+".coeff",Ctimes_to_save)
+    except:
+        pass
 
     #try:
         #os.system("mkdir " + folder_local)

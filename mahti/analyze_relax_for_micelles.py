@@ -65,6 +65,10 @@ mahti_folders=["02_eElaB_micelle_40SDS_CHARMM_310K_Na_Neut_OPC",
 
 
 
+mahti_folders=["51_Magaining2_micelle_45SDS_CHARMM_37C_Na_Neut_OPC"]
+
+
+
 """Parameters to be specified by the user"""
 OP=0 # order parameter
 smallest_corr_time=0 # enter in log scale -3 fs; 0 ps; 3 ns; 6 us;
@@ -117,13 +121,17 @@ for system in mahti_folders:
             Ctimes_to_save[:,0]=Ctimes
             for i in range(0,residues):
                 input_corr_file = folder_path+input_prefix+str(i)+".xvg"
-                AA=rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
-                Ctimes_to_save[:,i+1]=AA.Coeffs
+                try:
+                    AA=rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
+                    Ctimes_to_save[:,i+1]=AA.Coeffs
+                except:
+                    pass
         else:
             rt.GetRelaxationData(OP,smallest_corr_time, biggest_corr_time, N_exp_to_fit,analyze,magnetic_field,input_corr_file,nuclei,output_name)
                                                                                                                                                         
         np.savetxt(output_name+".coeff",Ctimes_to_save)
-    except:
+    except Exception as e:
+        print(e)
         pass
 
     #try:

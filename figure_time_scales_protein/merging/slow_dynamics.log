@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  5 AUG 2022 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  22 SEP 2022 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,32 +521,32 @@ LaTeX Info: Redefining \nameref on input line 36.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<eElab_2_slow.png, id=4, 1084.05pt x 505.89pt>
+<eElab_2_slow.png, id=8, 1084.05pt x 505.89pt>
 File: eElab_2_slow.png Graphic file (type png)
 <use eElab_2_slow.png>
 Package pdftex.def Info: eElab_2_slow.png  used on input line 41.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<yFis1_2_slow.png, id=6, 1084.05pt x 505.89pt>
+<yFis1_2_slow.png, id=10, 1084.05pt x 505.89pt>
 File: yFis1_2_slow.png Graphic file (type png)
 <use yFis1_2_slow.png>
 Package pdftex.def Info: yFis1_2_slow.png  used on input line 42.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<eYqjD_2_slow.png, id=7, 1084.05pt x 505.89pt>
+<eYqjD_2_slow.png, id=11, 1084.05pt x 505.89pt>
 File: eYqjD_2_slow.png Graphic file (type png)
 <use eYqjD_2_slow.png>
 Package pdftex.def Info: eYqjD_2_slow.png  used on input line 43.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<hMff_2_slow.png, id=8, 1084.05pt x 505.89pt>
+<hMff_2_slow.png, id=12, 1084.05pt x 505.89pt>
 File: hMff_2_slow.png Graphic file (type png)
 <use hMff_2_slow.png>
 Package pdftex.def Info: hMff_2_slow.png  used on input line 44.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<mag2_2_slow.png, id=9, 1084.05pt x 505.89pt>
+<mag2_2_slow.png, id=13, 1084.05pt x 505.89pt>
 File: mag2_2_slow.png Graphic file (type png)
 <use mag2_2_slow.png>
 Package pdftex.def Info: mag2_2_slow.png  used on input line 45.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<gwalp_2_slow.png, id=10, 1084.05pt x 505.89pt>
+<gwalp_2_slow.png, id=14, 1084.05pt x 505.89pt>
 File: gwalp_2_slow.png Graphic file (type png)
 <use gwalp_2_slow.png>
 Package pdftex.def Info: gwalp_2_slow.png  used on input line 46.
@@ -555,32 +555,32 @@ Package pdftex.def Info: gwalp_2_slow.png  used on input line 46.
 
 LaTeX Warning: Float too large for page by 4.96606pt on input line 47.
 
-<eElab_2_slow_lin.png, id=11, 1084.05pt x 505.89pt>
+<eElab_2_slow_lin.png, id=15, 1084.05pt x 505.89pt>
 File: eElab_2_slow_lin.png Graphic file (type png)
 <use eElab_2_slow_lin.png>
 Package pdftex.def Info: eElab_2_slow_lin.png  used on input line 52.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<yFis1_2_slow_lin.png, id=12, 1084.05pt x 505.89pt>
+<yFis1_2_slow_lin.png, id=16, 1084.05pt x 505.89pt>
 File: yFis1_2_slow_lin.png Graphic file (type png)
 <use yFis1_2_slow_lin.png>
 Package pdftex.def Info: yFis1_2_slow_lin.png  used on input line 53.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<eYqjD_2_slow_lin.png, id=13, 1084.05pt x 505.89pt>
+<eYqjD_2_slow_lin.png, id=17, 1084.05pt x 505.89pt>
 File: eYqjD_2_slow_lin.png Graphic file (type png)
 <use eYqjD_2_slow_lin.png>
 Package pdftex.def Info: eYqjD_2_slow_lin.png  used on input line 54.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<hMff_2_slow_lin.png, id=14, 1084.05pt x 505.89pt>
+<hMff_2_slow_lin.png, id=18, 1084.05pt x 505.89pt>
 File: hMff_2_slow_lin.png Graphic file (type png)
 <use hMff_2_slow_lin.png>
 Package pdftex.def Info: hMff_2_slow_lin.png  used on input line 55.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<mag2_2_slow_lin.png, id=15, 1084.05pt x 505.89pt>
+<mag2_2_slow_lin.png, id=19, 1084.05pt x 505.89pt>
 File: mag2_2_slow_lin.png Graphic file (type png)
 <use mag2_2_slow_lin.png>
 Package pdftex.def Info: mag2_2_slow_lin.png  used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 116.66101pt.
-<gwalp_2_slow_lin.png, id=16, 1084.05pt x 505.89pt>
+<gwalp_2_slow_lin.png, id=20, 1084.05pt x 505.89pt>
 File: gwalp_2_slow_lin.png Graphic file (type png)
 <use gwalp_2_slow_lin.png>
 Package pdftex.def Info: gwalp_2_slow_lin.png  used on input line 57.
@@ -598,24 +598,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./slow_dynamics.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
-Package rerunfilecheck Info: File `slow_dynamics.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `slow_dynamics.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `slow_dynamics.out':
+(rerunfilecheck)             Before: 2D1EE1D6544C000A561329D7440DBC13;54
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 8699 strings out of 481239
- 129859 string characters out of 5920377
- 393095 words of memory out of 5000000
- 23827 multiletter control sequences out of 15000+600000
+ 8703 strings out of 481239
+ 129895 string characters out of 5920377
+ 393147 words of memory out of 5000000
+ 23830 multiletter control sequences out of 15000+600000
  534530 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,5n,42p,229b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on slow_dynamics.pdf (2 pages, 248931 bytes).
+pdfTeX warning (dest): name{section.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on slow_dynamics.pdf (2 pages, 249045 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

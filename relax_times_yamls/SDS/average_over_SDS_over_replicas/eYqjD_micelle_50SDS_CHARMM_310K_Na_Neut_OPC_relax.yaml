@@ -1,0 +1,340 @@
+analysis0:
+  info:
+    00_nuclei: 2H
+    01_magnetic_field_[T]: 2.35
+    02_magnetic_field_[MHz]: 100.05
+    03_N_exp_to_fit: 100
+    04_smallest_corr_time_[s]: 1.0e-14
+    05_biggest_corr_time_[s]: 1.0e-09
+    06_analyze: 0.1
+    07_OP: 0
+    08_corr_func_length_[ps]: 1500000.0
+    09_saving_frequency_[ps]: 10.0
+    10_xtc:
+    - non-Water_6_eYqjD_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_110ns_mahti_20ns_mahti_3248ns.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3.xtc
+    11_xtc_modified:
+    - '2023-02-17 11:28:02'
+    - '2023-01-26 11:41:24'
+    - '2022-12-08 20:18:57'
+    12_naame:
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica1
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3
+  results:
+    0:
+      T1: 0.02730911135208921
+      T2: 0.02693256422771103
+      hetNOE: 0.0
+      res: C1_H11
+    1:
+      T1: 0.027908479274350896
+      T2: 0.02754078913818722
+      hetNOE: 0.0
+      res: C2_H21
+    2:
+      T1: 0.03090511142538884
+      T2: 0.030518161283838306
+      hetNOE: 0.0
+      res: C3_H31
+    3:
+      T1: 0.028038442434918966
+      T2: 0.027681806222061605
+      hetNOE: 0.0
+      res: C4_H41
+    4:
+      T1: 0.02921384659962966
+      T2: 0.028848235597077044
+      hetNOE: 0.0
+      res: C5_H51
+    5:
+      T1: 0.02920275004678919
+      T2: 0.028838448238297232
+      hetNOE: 0.0
+      res: C6_H61
+    6:
+      T1: 0.03237325580017278
+      T2: 0.031985395821792266
+      hetNOE: 0.0
+      res: C7_H71
+    7:
+      T1: 0.037056406221066235
+      T2: 0.03662937014856151
+      hetNOE: 0.0
+      res: C8_H81
+    8:
+      T1: 0.04694117446904768
+      T2: 0.046439833492566765
+      hetNOE: 0.0
+      res: C9_H91
+    9:
+      T1: 0.06418017542921164
+      T2: 0.0635367799511083
+      hetNOE: 0.0
+      res: C10_H101
+    10:
+      T1: 0.10670350772892238
+      T2: 0.10576556234763249
+      hetNOE: 0.0
+      res: C11_H111
+    11:
+      T1: 0.4616433641273972
+      T2: 0.4601773724674593
+      hetNOE: 0.0
+      res: C12_H121
+analysis1:
+  info:
+    00_nuclei: 2H
+    01_magnetic_field_[T]: 2.35
+    02_magnetic_field_[MHz]: 100.05
+    03_N_exp_to_fit: 100
+    04_smallest_corr_time_[s]: 1.0e-14
+    05_biggest_corr_time_[s]: 1.0e-07
+    06_analyze: 0.1
+    07_OP: 0
+    08_corr_func_length_[ps]: 1500000.0
+    09_saving_frequency_[ps]: 10.0
+    10_xtc:
+    - non-Water_6_eYqjD_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_110ns_mahti_20ns_mahti_3248ns.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3.xtc
+    11_xtc_modified:
+    - '2023-02-17 11:28:02'
+    - '2023-01-26 11:41:24'
+    - '2022-12-08 20:18:57'
+    12_naame:
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica1
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3
+  results:
+    0:
+      T1: 0.021407451694797172
+      T2: 0.018884971635413167
+      hetNOE: 0.0
+      res: C1_H11
+    1:
+      T1: 0.023297421063993084
+      T2: 0.020680856000388537
+      hetNOE: 0.0
+      res: C2_H21
+    2:
+      T1: 0.026894450649713193
+      T2: 0.024295365375974712
+      hetNOE: 0.0
+      res: C3_H31
+    3:
+      T1: 0.024753664500865448
+      T2: 0.0223228853854402
+      hetNOE: 0.0
+      res: C4_H41
+    4:
+      T1: 0.02610454142667678
+      T2: 0.02381441899312036
+      hetNOE: 0.0
+      res: C5_H51
+    5:
+      T1: 0.0261928766105735
+      T2: 0.02393058042594166
+      hetNOE: 0.0
+      res: C6_H61
+    6:
+      T1: 0.029395386612095776
+      T2: 0.02700956240241271
+      hetNOE: 0.0
+      res: C7_H71
+    7:
+      T1: 0.034137752895007395
+      T2: 0.031262924504635956
+      hetNOE: 0.0
+      res: C8_H81
+    8:
+      T1: 0.04407294552551588
+      T2: 0.04074465784368531
+      hetNOE: 0.0
+      res: C9_H91
+    9:
+      T1: 0.060919108550066506
+      T2: 0.05665487900654686
+      hetNOE: 0.0
+      res: C10_H101
+    10:
+      T1: 0.10226888177164162
+      T2: 0.09605132418750545
+      hetNOE: 0.0
+      res: C11_H111
+    11:
+      T1: 0.4504639726607756
+      T2: 0.4381830489114842
+      hetNOE: 0.0
+      res: C12_H121
+analysis2:
+  info:
+    00_nuclei: 2H
+    01_magnetic_field_[T]: 2.35
+    02_magnetic_field_[MHz]: 100.05
+    03_N_exp_to_fit: 100
+    04_smallest_corr_time_[s]: 1.0e-14
+    05_biggest_corr_time_[s]: 1.0e-08
+    06_analyze: 0.1
+    07_OP: 0
+    08_corr_func_length_[ps]: 1500000.0
+    09_saving_frequency_[ps]: 10.0
+    10_xtc:
+    - non-Water_6_eYqjD_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_110ns_mahti_20ns_mahti_3248ns.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3.xtc
+    11_xtc_modified:
+    - '2023-02-17 11:28:02'
+    - '2023-01-26 11:41:24'
+    - '2022-12-08 20:18:57'
+    12_naame:
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica1
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3
+  results:
+    0:
+      T1: 0.021427646404214896
+      T2: 0.01891270325008731
+      hetNOE: 0.0
+      res: C1_H11
+    1:
+      T1: 0.023210356975111236
+      T2: 0.020746698408693982
+      hetNOE: 0.0
+      res: C2_H21
+    2:
+      T1: 0.026898766610825638
+      T2: 0.024312683877952605
+      hetNOE: 0.0
+      res: C3_H31
+    3:
+      T1: 0.02476319570446769
+      T2: 0.022390921445601127
+      hetNOE: 0.0
+      res: C4_H41
+    4:
+      T1: 0.026105160125687973
+      T2: 0.02381352529191391
+      hetNOE: 0.0
+      res: C5_H51
+    5:
+      T1: 0.0261980212898026
+      T2: 0.023930796854033567
+      hetNOE: 0.0
+      res: C6_H61
+    6:
+      T1: 0.029398854483499767
+      T2: 0.02705008725018815
+      hetNOE: 0.0
+      res: C7_H71
+    7:
+      T1: 0.034093611749224775
+      T2: 0.031270800677418546
+      hetNOE: 0.0
+      res: C8_H81
+    8:
+      T1: 0.04405914856293572
+      T2: 0.04074422666626071
+      hetNOE: 0.0
+      res: C9_H91
+    9:
+      T1: 0.06092077065775716
+      T2: 0.056641387590532576
+      hetNOE: 0.0
+      res: C10_H101
+    10:
+      T1: 0.10229410292543356
+      T2: 0.09605780157244367
+      hetNOE: 0.0
+      res: C11_H111
+    11:
+      T1: 0.45065028156866216
+      T2: 0.4409540997319015
+      hetNOE: 0.0
+      res: C12_H121
+analysis3:
+  info:
+    00_nuclei: 2H
+    01_magnetic_field_[T]: 2.35
+    02_magnetic_field_[MHz]: 100.05
+    03_N_exp_to_fit: 100
+    04_smallest_corr_time_[s]: 1.0e-11
+    05_biggest_corr_time_[s]: 1.0e-07
+    06_analyze: 0.1
+    07_OP: 0
+    08_corr_func_length_[ps]: 1500000.0
+    09_saving_frequency_[ps]: 10.0
+    10_xtc:
+    - non-Water_6_eYqjD_50SDS_micelle_310K_CHARMM_lastframe_FromSofia_SDS_Protein_SOD_solvated_OPC_local_run_20ps_mahti_110ns_mahti_20ns_mahti_3248ns.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2.xtc
+    - non-Water_eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3.xtc
+    11_xtc_modified:
+    - '2023-02-17 11:28:02'
+    - '2023-01-26 11:41:24'
+    - '2022-12-08 20:18:57'
+    12_naame:
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica1
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica2
+    - eYqjD_micelle_50SDS_CHARMM_310K_Na_Neut_OPC_replica3
+  results:
+    0:
+      T1: 0.021111573889143666
+      T2: 0.01865470338056378
+      hetNOE: 0.0
+      res: C1_H11
+    1:
+      T1: 0.02296029381832236
+      T2: 0.02042065260598084
+      hetNOE: 0.0
+      res: C2_H21
+    2:
+      T1: 0.02663849922051479
+      T2: 0.024102306281761306
+      hetNOE: 0.0
+      res: C3_H31
+    3:
+      T1: 0.024547892010505508
+      T2: 0.02214493772674209
+      hetNOE: 0.0
+      res: C4_H41
+    4:
+      T1: 0.025878344869905822
+      T2: 0.02362563608273779
+      hetNOE: 0.0
+      res: C5_H51
+    5:
+      T1: 0.025965576511060247
+      T2: 0.023742248868725897
+      hetNOE: 0.0
+      res: C6_H61
+    6:
+      T1: 0.029026695703921305
+      T2: 0.02669852665993173
+      hetNOE: 0.0
+      res: C7_H71
+    7:
+      T1: 0.03333346769573136
+      T2: 0.03058010652073007
+      hetNOE: 0.0
+      res: C8_H81
+    8:
+      T1: 0.042642829124049327
+      T2: 0.03949830696486399
+      hetNOE: 0.0
+      res: C9_H91
+    9:
+      T1: 0.05778837579608905
+      T2: 0.05388876064222572
+      hetNOE: 0.0
+      res: C10_H101
+    10:
+      T1: 0.0924801266176374
+      T2: 0.08726087566294002
+      hetNOE: 0.0
+      res: C11_H111
+    11:
+      T1: 0.2653241877037409
+      T2: 0.26532365277181974
+      hetNOE: 0.0
+      res: C12_H121

@@ -1,0 +1,38 @@
+peaks:
+  '21':
+    NOE:
+      ppm:
+      - '8.0893'
+      - '118.1942'
+      intensity: 400984.24
+    noNOE:
+      ppm:
+      - '8.0893'
+      - '118.1942'
+      intensity: 295798.86
+    hetNOE: 0.7376820096470624
+  '17':
+    NOE:
+      ppm:
+      - '8.4525'
+      - '119.5802'
+      intensity: 463928.56
+    noNOE:
+      ppm:
+      - '8.4525'
+      - '119.5802'
+      intensity: 354590.14
+    hetNOE: 0.7643205669424621
+  '13':
+    NOE:
+      ppm:
+      - '8.3588'
+      - '121.9332'
+      intensity: 465818.21
+    noNOE:
+      ppm:
+      - '8.3588'
+      - '121.9332'
+      intensity: 366218.15
+    hetNOE: 0.7861825539194786
+INFO: hMff_DSDS_first_samples, experiment 220

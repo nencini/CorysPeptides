@@ -1,5 +1,15 @@
-6 0.730268272138095
-9 0.694073273291112
-12 0.89440264849767
-15 0.689497268903297
-17 0.731758424632065
+# Sample 1; measured 3.8.2020 by Tuomas Niemi-Aro at 850 MHz Bruker magnet
+#         16 scans; 1536x256(x2) 
+#         SW 11.9994; 33.0
+#         AQ 0.1003520; 0.0450088
+# Ricky - no linear prediction used; 
+#         original exp. 256+256 increments
+# Error - taken from influece of noise from StN ratio
+# Note - linear prediction is significantly changing the height of peaks!!!
+#  
+#Peak #Old-Ricky     #Ricky     #error #ppm
+6 0.730268272138095   0.717	0.023  8.4108	124.4152
+9 0.694073273291112   0.710	0.023  7.7312	121.3852
+12 0.89440264849767   0.782	0.025  8.235	119.3546
+15 0.689497268903297  0.719	0.023  8.112	119.1289
+17 0.731758424632065  0.70	0.023  8.2175	117.2272

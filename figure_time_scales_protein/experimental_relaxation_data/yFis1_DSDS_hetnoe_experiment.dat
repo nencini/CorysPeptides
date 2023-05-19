@@ -1,4 +1,14 @@
-  7.00   0.80431
- 12.00   0.74679
- 18.00   0.91272
- 22.00   0.83384
+# Sample 1; measured 3.8.2020 by Tuomas Niemi-Aro at 850 MHz Bruker magnet
+#         16 scans; 1536x256(x2) 
+#         SW 11.9994; 33.0
+#         AQ 0.0752640; 0.0450088
+# Ricky - no linear prediction used; 
+#         original exp. 256+256 increments
+# Error - taken from influece of noise from StN ratio
+# Note - linear prediction is significantly changing the height of peaks!!!
+#  
+# Peak   # Sofia   #Ricky       #Error   # ppm
+  7.00   0.80431   0.782	0.043    8.2538	122.4167
+ 12.00   0.74679   0.588	0.032    8.2714	119.7091
+ 18.00   0.91272   0.833	0.046    8.7167	121.6109
+ 22.00   0.83384   0.860   	0.047    8.6698	118.9355
